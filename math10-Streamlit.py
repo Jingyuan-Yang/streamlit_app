@@ -51,9 +51,6 @@ if uploaded_file is not None:
 
 # Question 12
 # Getting information from users
-    if st.button('Subscribe'):
-        st.write('successful subscription!')
-
     name=st.text_input('Name')
     st.write(name)
 
@@ -65,3 +62,6 @@ if uploaded_file is not None:
 
     if st.checkbox('I accept T&C',value=False):
         st.write('Thank you!')
+
+    if st.button('Subscribe'):
+        st.write('successful subscription!')
